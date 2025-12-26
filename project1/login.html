@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Jadhav Kumar Sweets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script>
+    function loginAlert(e) {
+      e.preventDefault();
+      alert("Demo only! (No actual login)");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="login.html" class="active">Login</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+    <div class="notify">Free delivery available! Fully refundable and returnable if delivered product is sour in taste.</div>
+  </header>
+  <div class="center-form">
+    <h1>Login</h1>
+    <form onsubmit="loginAlert(event)">
+      <input type="text" placeholder="Email or Phone" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <button type="submit">Login</button>
+    </form>
+    <div class="social-links">
+      <a href="#" title="Facebook login (Demo only)"><i class="fab fa-facebook-square"></i></a>
+      <a href="#" title="Google login (Demo only)"><i class="fab fa-google"></i></a>
+      <a href="#" title="Twitter login (Demo only)"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    <p>Don’t have an account? <a href="register.html">Register</a></p>
+  </div>
+  <footer>
+    © 2024 Jadhav Kumar Sweets
+  </footer>
+</body>
+</html>
+6. register.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - Jadhav Kumar Sweets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function registerAlert(e) {
+      e.preventDefault();
+      alert("Demo only! (No actual registration.)");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="login.html">Login</a>
+      <a href="register.html" class="active">Register</a>
+      <a href="contact.html">Contact</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+    <div class="notify">Free delivery available! Fully refundable and returnable if delivered product is sour in taste.</div>
+  </header>
+  <div class="center-form">
+    <h1>Register</h1>
+    <form onsubmit="registerAlert(event)">
+      <input type="text" placeholder="Full Name" required><br>
+      <input type="email" placeholder="Email" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+  </div>
+  <footer>
+    © 2024 Jadhav Kumar Sweets
+  </footer>
+</body>
+</html>
